@@ -7,7 +7,7 @@ sns.set(style='whitegrid')
 sns.set_theme(style='whitegrid')
 
 # Dataframe yang berisi data penggunaan sepeda sewa
-day_df = pd.read_csv("all_data.csv")  
+day_df = pd.read_csv("C:/Users/ASUS/OneDrive/Documents/MBKM/BANGKIT/submission_joy/dashboard/all_data.csv")  
 
 # Membuat fungsi untuk menentukan kategori kecepatan angin
 def wind_speed_category(speed):
